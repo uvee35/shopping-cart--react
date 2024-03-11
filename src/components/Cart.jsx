@@ -7,7 +7,7 @@ import { useCart } from '../hooks/useCart.js'
 function CartItem ({ thumbnail, price, title, quantity, addToCart }) {
   return (
     <li>
-      <img
+      <img 
         src={thumbnail}
         alt={title}
       />

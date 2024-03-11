@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { product as initialProducts } from "./mocks/product.json";
+import { product as initialProducts } from "./mocks/products.json";
 import { Products } from "./components/Products.jsx";
 
 function App() {
