@@ -1,6 +1,9 @@
+import {Products} from "./components/products.jsx"
+import { products } from "./mocks/products.js"
+function App() {
+  return(
 
-function App() {(
-  <h1>Shopping Cart</h1>
+    <Products products= {products}/>
   
   )
 }
