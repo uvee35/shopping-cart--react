@@ -18,6 +18,8 @@ function App() {
     })
   }
 
+  const filteredProducts = filterProducts(products)
+
   return (
     <div>
       <Products products={products} />
