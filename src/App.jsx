@@ -1,5 +1,5 @@
-import {Products} from "./components/products.jsx"
-import { products } from "./mocks/products.js"
+import {Products} from "./components/Products.jsx"
+import { products } from "./mocks/product.json"
 function App() {
   return(
 

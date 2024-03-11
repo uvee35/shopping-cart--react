@@ -1,7 +1,7 @@
-import "./Products.css";
+import "./product.css";
 import { AddToCartIcon } from "./icons";
 
-export default function Products({ products }) {
+export default function Products({ Products }) {
     return (
         <main className="products">
             <ul>
@@ -23,3 +23,4 @@ export default function Products({ products }) {
         </main>
     );
 }
+
